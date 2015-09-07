@@ -3,10 +3,10 @@ require 'mechanize'
 
 agent = Mechanize.new
 
-url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/AllPublicNotices.aspx?r=%24P1.WEBGUEST&f=%24P1.ESB.PUBNOTAL.ENQ'
+url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/AllPublicNotices.aspx?r=MC.P1.WEBGUEST&f=%24P1.ESB.PUBNOTAL.ENQ'
 page = agent.get(url)
 
-base_info_url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/PublicNoticeDetails.aspx?r=%24P1.WEBGUEST&f=%24P1.ESB.PUBNOT.VIW&ApplicationId='
+base_info_url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/PublicNoticeDetails.aspx?r=MC.P1.WEBGUEST&f=%24P1.ESB.PUBNOT.VIW&ApplicationId='
 comment_url = 'http://www.marrickville.nsw.gov.au/en/development/development-applications/da-on-exhibition/lodge-a-comment-on-a-da/'
 
 (page/'//*[@id="ctl00_Content_cusApplicationResultsGrid_pnlCustomisationGrid"]').search('table').each do |t|
