@@ -7,7 +7,7 @@ url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/AllP
 page = agent.get(url)
 
 base_info_url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/eTrack/eTrackApplicationDetails.aspx?r=MC.P1.WEBGUEST&f=%24P1.ETR.APPDET.VIW&ApplicationId='
-comment_url = 'http://www.marrickville.nsw.gov.au/en/development/development-applications/da-on-exhibition/lodge-a-comment-on-a-da/'
+comment_url = 'mailto:council@innerwest.nsw.gov.au?subject=Development Application - '
 
 (page/'//*[@id="ctl00_Content_cusApplicationResultsGrid_pnlCustomisationGrid"]').search('table').each do |t|
   closing_date = t.search('td')[7].inner_text
@@ -19,7 +19,7 @@ comment_url = 'http://www.marrickville.nsw.gov.au/en/development/development-app
     'on_notice_to'      => on_notice_to,
     'address'           => t.search('td')[5].inner_text,
     'info_url'          => base_info_url + t.search('td')[1].inner_text,
-    'comment_url'       => comment_url,
+    'comment_url'       => comment_url + t.search('td')[1].inner_text,
     'date_scraped'      => Date.today.to_s
   }
 
