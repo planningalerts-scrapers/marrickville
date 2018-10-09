@@ -6,7 +6,7 @@ agent = Mechanize.new
 url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/AllPublicNotices.aspx?r=MC.P1.WEBGUEST&f=%24P1.ESB.PUBNOTAL.ENQ'
 page = agent.get(url)
 
-base_info_url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/PublicNotices/PublicNoticeDetails.aspx?r=MC.P1.WEBGUEST&f=%24P1.ESB.PUBNOT.VIW&ApplicationId='
+base_info_url = 'https://eproperty.marrickville.nsw.gov.au/eServices/P1/eTrack/eTrackApplicationDetails.aspx?r=MC.P1.WEBGUEST&f=%24P1.ETR.APPDET.VIW&ApplicationId='
 comment_url = 'http://www.marrickville.nsw.gov.au/en/development/development-applications/da-on-exhibition/lodge-a-comment-on-a-da/'
 
 (page/'//*[@id="ctl00_Content_cusApplicationResultsGrid_pnlCustomisationGrid"]').search('table').each do |t|
@@ -24,6 +24,8 @@ comment_url = 'http://www.marrickville.nsw.gov.au/en/development/development-app
   }
 
   if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
+    puts "Saving record " + record['council_reference'] + ", " + record['address']
+#    puts record
     ScraperWiki.save_sqlite(['council_reference'], record)
   else
     puts "Skipping already saved record " + record['council_reference']
