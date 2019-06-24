@@ -1,0 +1,531 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eproperty.marrickville.nsw.gov.au/eServices/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=L14&f=$P1.ETR.SEARCH.SL14&r=MC.P1.WEBGUEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - eproperty.marrickville.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ASP.NET_SessionId=svxbcn5504bfnuq3zmh3al23; path=/; HttpOnly
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 24 Jun 2019 23:39:46 GMT
+      Content-Length:
+      - '23403'
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\tMarrickville
+        Council - Submitted Last 14 Days\r\n</title><link href=\"../../App_Themes/Marrickville/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Marrickville/fonts.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Marrickville/jquery.collapse.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n<script type=\"text/javascript\"
+        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js\"></script> \r\n
+        \   <form name=\"aspnetForm\" method=\"post\" action=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL14\"
+        id=\"aspnetForm\">\r\n<div>\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwUKMTE5MDgzMDk0Nw9kFgJmD2QWAgIDD2QWBAIED2QWBAIBD2QWAmYPZBYEAgEPZBYCZg9kFgJmDw8WEB4EVGV4dAUJRWRpdCBNb2RlHgtDb21tYW5kTmFtZQUEVGFzax4PQ29tbWFuZEFyZ3VtZW50BRpQMUVQUkN1c3RvbWlzYXRpb25FZGl0TW9kZR4JQWNjZXNzS2V5ZR4QQ2F1c2VzVmFsaWRhdGlvbmgeCFRhYkluZGV4AQAAHgdUb29sVGlwZR4PVmFsaWRhdGlvbkdyb3VwZWRkAgIPZBYCZg9kFgJmDw8WEB8ABQ1SZWZyZXNoIENhY2hlHwEFBFRhc2sfAgUeUDFFUFJDdXN0b21pc2F0aW9uUmVmcmVzaENhY2hlHwNlHwRoHwUBAAAfBmUfB2VkZAIDDw8WAh4HVmlzaWJsZWhkFgICAg8PZA8PFCsAARYGHgROYW1lBQpsc0Z1bmN0aW9uHgxEZWZhdWx0VmFsdWUFEyRQMS5FVFIuU0VBUkNILlNMMTQeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkAgcPZBYGAgEPDxYCHwBlZGQCAw9kFgQCAg8PFgIfAAUMU2VhcmNoIERhdGVzZGQCAw8PFgIfAAUYMTIvMDYvMjAxOSB0byAyNS8wNi8yMDE5ZGQCBQ8PFgQeCEdyaWRUeXBlBQxFVFJBQ0tTRUFSQ0geEEdyaWRDcml0ZXJpYUxpc3Qy7QQAAQAAAP////8BAAAAAAAAAAwCAAAAUFQxLlAxLldlYi5PYmplY3RBZGFwdGVycywgVmVyc2lvbj0xMC40LjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBAEAAACcAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYSwgVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLCBWZXJzaW9uPTEwLjQuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGxdXQMAAAAGX2l0ZW1zBV9zaXplCF92ZXJzaW9uBAAAJ1QxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWFbXQIAAAAICAkDAAAAAQAAAAEAAAAHAwAAAAABAAAABAAAAAQlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQIAAAAJBAAAAA0DBQQAAAAlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQUAAAAHbXNWYWx1ZQhtc1ZhbHVlMg5tc09wZXJhdG9yQ29kZQptc0NvbHVtbklkDm1zUHJvcGVydHlOYW1lAQEBAQECAAAABgUAAAAWMTIvMDYvMjAxOSAxMjowMDowMCBBTQYGAAAAFjI1LzA2LzIwMTkgMTE6NTk6NTkgUE0GBwAAAAJEQgYIAAAADUxvZGdlbWVudERhdGUJCAAAAAtkFgJmD2QWBAIBD2QWBAIBDw8WAh8ABS1DbGljayBoZXJlIHRvIG9wZW4gQ2kgYW5kIGN1c3RvbWlzZSB0aGlzIGdyaWRkZAIDDw8WAh8ABQlHcmlkIFR5cGVkZAIDDw8WAh8IaGQWAgIBDw8WAh8ABRxObyBpbmZvcm1hdGlvbiBpcyBhdmFpbGFibGUuZGQYAwVDY3RsMDAkQ29udGVudCRjdXNSZXN1bHRzR3JpZCRyZXBXZWJHcmlkJGN0bDAwJGdyZFdlYkdyaWRUYWJ1bGFyVmlldw88KwAKAQgCAmQFQGN0bDAwJENvbnRlbnQkY3VzUmVzdWx0c0dyaWQkcmVwV2ViR3JpZCRjdGwwMCRkdHZXZWJHcmlkTGlzdFZpZXcPFCsAB2RkZGRkFgACHmQFHGN0bDAwJENvbnRlbnQkbGJsU2VhcmNoRGF0ZXMPaGTdF6MNFFsKEy+GYfpV/1HmFFOEnw==\"
+        />\r\n</div>\r\n\r\n<div>\r\n\r\n\t<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWGwKQo7uDCgK359HKDwL38+S0BQLD0Z//CAKDjpzeCAKCqYWLDgK+1pGjDgLurtn5CALsuJ7pAgL/iqOnDwKei6OnDwK1jaOnDwLci6OnDwL7i6OnDwKajKOnDwKhiqOnDwLIiKOnDwK5jLfiDgLgirfiDgL/irfiDgKei7fiDgK1jbfiDgLci7fiDgL7i7fiDgKa4Pf0BAK/g8WMCQKjmJfRCp0F8GRx51Vxpk8uxkM7XPuBVFhp\"
+        />\r\n</div>\r\n        <div id=\"cssBounds\">\r\n            <div id=\"cssBanner\"
+        >\r\n                    <!-- Login -->\r\n                    <div class=\"speciallink\">\r\n
+        \                       \r\n                            <span class=\"Login\">\r\n
+        \                               <a id=\"ctl00_ctlLogin_cmdLogin\" accesskey=\"L\"
+        title=\"Access Key: L\" href=\"javascript:__doPostBack('ctl00$ctlLogin$cmdLogin','')\">Login</a>
+        \                               \r\n                             </span>\r\n
+        \                           \r\n                     </div>\r\n                    <!--
+        End Login -->            \r\n                <div id=\"cssBannerLogo\">\r\n
+        \                   <a href=\"https://eproperty.marrickville.nsw.gov.au/eServices/P1/GuestHome.aspx?r=MC.P1.WEBGUEST&f=%24P1.EPR.GUESTHME.VIW\"
+        id=\"ctl00_cmdHomeNav\">\r\n                        <img src=\"../../App_Themes/Default/Images/Empty.gif\"
+        id=\"ctl00_imageHomeNav\" border=\"0\" class=\"homeNav\" />\r\n                    </a>\r\n
+        \               </div>\r\n                <ul class=\"topmenu\">\r\n                    <li><a
+        title=\"Back to eProperty home\" href=\"https://eproperty.marrickville.nsw.gov.au/eServices/P1/GuestHome.aspx?r=MC.P1.WEBGUEST&f=$P1.EPR.GUESTHME.VIW\">Back
+        to eProperty home</a></li>\r\n                </ul>\r\n            </div>\r\n
+        \           <div class=\"bannerimage\"><img src=\"/eServices/App_Themes/Marrickville/Images/develop-content-banner.jpg\"
+        alt=\"Inner West Council\"></div>\r\n            <div class=\"clear\"></div>\r\n
+        \           <div id=\"cssContentArea\">\r\n                <div id=\"cssTaskpane\"
+        \ class = \"cssNoPrint\">\r\n                    \r\n                    <div>\r\n
+        \                       \r\n                                <div class=\"menuPanel\">\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl01_lblMenuGroupHeader\">Online
+        Applications</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/SubmitApplication.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.ESB.SUBMTAPP.VIW\">Submit
+        an Application</a></li>\r\n</ul>\r\n                                <br />\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl02_lblMenuGroupHeader\">Parking
+        Permits</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/ParkingPermitApplication.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.EPP.PERMIT.MNT\">Apply
+        for a Parking Permit</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl03_lblMenuGroupHeader\">Rates</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ePay/RatesPayment.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.EPY.RATES.ENQ\">Rates
+        Payment</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               <div class=\"menuHeader\">\r\n                                    <span
+        id=\"ctl00_Taskpane_rprMenuList_ctl04_lblMenuGroupHeader\">Development</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"eTrackApplicationSearch.aspx?r=MC.P1.WEBGUEST&amp;f=MC.P1.ETR.SEARCH.ENQ\">Search
+        for a DA</a></li><li><a href=\"../PublicNotices/AllPublicNotices.aspx?r=MC.P1.WEBGUEST&amp;f=MC.ESB.PUBNOTAL.ENQ\">View
+        DAs on Exhibition</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl05_lblMenuGroupHeader\">Shopping
+        Cart</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ShoppingCart/ShoppingCart.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.PAY.CART.VIW\">Shopping
+        Cart</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               </div>\r\n                            \r\n
+        \                       \r\n                    </div>\r\n                            \r\n
+        \               </div>\r\n                \r\n                <div id=\"cssTaskpaneRelatedLinks\"
+        \ class= \"cssNoPrint\">\r\n                    \r\n                        <div
+        id=\"ctl00_RightTaskPane_tspRelatedLinks\" class=\"taskPanel\">\r\n<div class=\"taskHeader\">Related
+        Links</div>\r\n<ul>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STW\">Submitted
+        This Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SLW\">Submitted
+        Last Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STM\">Submitted
+        This Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SLM\">Submitted
+        Last Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L7&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL7\">Submitted
+        Last 7 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL14\">Submitted
+        Last 14 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L28&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL28\">Submitted
+        Last 28 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DTW\">Determined
+        This Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DLW\">Determined
+        Last Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DTM\">Determined
+        This Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DLM\">Determined
+        Last Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L7&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL7\">Determined
+        Last 7 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL14\">Determined
+        Last 14 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L28&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL28\">Determined
+        Last 28 Days</a></li>\r\n</ul>\r\n<div class=\"taskFooter\">&nbsp;</div>\r\n</div>\r\n\r\n
+        \                       \r\n                    \r\n                    \r\n
+        \                   <div id=\"cssHelpAndAdmin\">\r\n                        \r\n
+        \   \r\n    \r\n\r\n                    </div>\r\n                </div>\r\n
+        \                               \r\n                <div id=\"cssContent\">\r\n
+        \               <div class=\"cssContentWorkspace\">\r\n                    <a
+        id=\"cssContentTop\"></a>\r\n                    \r\n                        <h1
+        id=\"ctl00_Header_h1PageTitle\">Submitted Last 14 Days</h1>\r\n                    \r\n
+        \                   \r\n                    \r\n                              \r\n
+        \                   \r\n    \r\n    <span id=\"ctl00_Content_cusETrackApplicationSearchResults\"
+        style=\"display:inline-block;width:100%;\"></span>\r\n    <br />\r\n    \r\n
+        \   <span id=\"ctl00_Content_lblSearchDates\" class=\"block\"><span id=\"ctl00_Content_lblFieldNameP1ETRSearchDates\"
+        class=\"fieldLabel\">Search Dates</span><span id=\"ctl00_Content_lblFieldValueP1ETRSearchDates\"
+        class=\"fieldLabel\">12/06/2019 to 25/06/2019</span></span>\r\n    \r\n    <div
+        id=\"ctl00_Content_cusResultsGrid_pnlCustomisationGrid\">\r\n\t\r\n    \r\n
+        \   \r\n    \r\n            <div id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_pnlSectionHeading\">\r\n\t\t\r\n
+        \               <span id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_lblSectionHeading\"
+        class=\"sectionHeading\">Application Search Results</span>\r\n                                <br
+        />\r\n                <img id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_imgSectionSeparator\"
+        class=\"sectionSeparator\" src=\"../../App_Themes/Marrickville/Images/Empty.gif\"
+        alt=\"\" style=\"border-width:0px;height:0px;width:50%;\" />\r\n            \r\n\t</div>\r\n
+        \r\n            \r\n\r\n            <div>\r\n\t\t<table class=\"grid\" cellspacing=\"0\"
+        cellpadding=\"3\" border=\"0\" id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_grdWebGridTabularView\"
+        style=\"width:100%;border-collapse:collapse;\">\r\n\t\t\t<tr class=\"headerRow\">\r\n\t\t\t\t<th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$RamId')\">Application
+        Link</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$LodgementDate')\">Lodgement
+        Date</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$Description')\">Description</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryGroupDescription')\">Group
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryCategoryDescription')\">Category
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$FormattedAddress')\">Formatted
+        Address</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$ApplicantNames')\">Applicant
+        Names</a></th>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl02$ctl01','')\">DA201900199</a></td><td>13/06/2019</td><td>Boarding
+        House</td><td>Development Applications</td><td>Boarding House</td><td>47 Audley
+        Street PETERSHAM NSW 2049</td><td> Piper Property Group</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl03$ctl01','')\">DA201900192</a></td><td>12/06/2019</td><td>to
+        fitout and use Shop 3 as an office with associated signage</td><td>Development
+        Applications</td><td>Commercial Premises Use and/or building works</td><td>3/420
+        New Canterbury Road DULWICH HILL NSW 2203</td><td>Lyndal Gowland</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl04$ctl01','')\">DA201900193</a></td><td>12/06/2019</td><td>to
+        fitout and use Shop 1 as an office with associated signage</td><td>Development
+        Applications</td><td>Commercial Premises Use and/or building works</td><td>1/420
+        New Canterbury Road DULWICH HILL NSW 2203</td><td>Lyndal Gai Gowland</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl05$ctl01','')\">DA201900194</a></td><td>13/06/2019</td><td>to
+        install an above ground swimming pool on the first floor level</td><td>Development
+        Applications</td><td>Other Das</td><td>134-146 Enmore Road NEWTOWN NSW 2042</td><td>
+        Easy Building Approvals Alana Nahlous</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl06$ctl01','')\">DA201900195</a></td><td>13/06/2019</td><td>Other
+        Das</td><td>Development Applications</td><td>Other Das</td><td>176 Lord Street
+        NEWTOWN NSW 2042</td><td> Swaby Orsman Developments Pty Ltd Murray Orsman</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl07$ctl01','')\">DA201900196</a></td><td>13/06/2019</td><td>to
+        remove a Eucalyptus tree</td><td>Development Applications</td><td>Other Das</td><td>69A
+        Cavendish Street STANMORE NSW 2048</td><td>Mary Louise McPhail</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl08$ctl01','')\">DA201900203</a></td><td>17/06/2019</td><td>to
+        carry out alterations to No. 144 Australia Street, subdivide the adjoining
+        lot into 2 Torrens title lots and erect a 3 storey dwelling house on each
+        lot with associated landscaping</td><td>Development Applications</td><td>Other
+        Das</td><td>144 Australia Street NEWTOWN NSW 2042</td><td>David Mitchell</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl09$ctl01','')\">DA201900210</a></td><td>19/06/2019</td><td>Other
+        Das</td><td>Development Applications</td><td>Other Das</td><td>Shop 4/359
+        Illawarra Road MARRICKVILLE NSW 2204</td><td> Outlook Planning And Development</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl10$ctl01','')\">DA201800173.01</a></td><td>14/06/2019</td><td>to
+        demolish existing improvements for the staged construction of 357 apartments
+        over 3 sites with associated basement parking. 3-7 Regent Street is to be
+        comprised of a residential flat building ranging from 5 to 8 storeys containing
+        108 apartments with basement parking. 13-17 Regent Street is to be comprised
+        of 3 residential buildings ranging from 6 to 7 storeys with 50 apartments
+        and basement parking. 287-309 Trafalgar Street and 16-20 Fisher Street is
+        to be comprised of a mixed use building ranging from 2 to 11 storeys in height
+        containing a new registered club premises for the Petersham RSL Club fronting
+        Trafalgar Street, caf&#233; and 3 residential buildings containing 196 apartments
+        and 3 x 2 storey Soho apartments fronting Fozzard Lane with associated basement
+        parking and public domain works linking Regent Street to Fozzard Lane. Approval
+        is also sought for the subdivision of land to accommodate widening of Fozzard
+        Lane as well as the stratum subdivision of lots in the development</td><td>Development
+        Applications</td><td>Mixed Residential Commercial</td><td>297-299 Trafalgar
+        Street PETERSHAM NSW 2049</td><td>&nbsp;</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl11$ctl01','')\">DA201900191</a></td><td>12/06/2019</td><td>to
+        demolish part of the premises and carry out ground floor alterations and additions
+        to a dwelling house including new rear parking space</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>61 Westbourne Street STANMORE
+        NSW 2048</td><td>Devon Rees</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl12$ctl01','')\">DA201900197</a></td><td>13/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>72 Beauchamp Street MARRICKVILLE
+        NSW 2204</td><td> Build Sydney Pty Ltd Misty Wilkie</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl13$ctl01','')\">DA201900198</a></td><td>13/06/2019</td><td>to
+        carry out first floor alterations and additions to a dwelling house to extend
+        a bedroom</td><td>Development Applications</td><td>Alterations additions &amp;
+        outbuildings dwells only</td><td>25 Palace Street PETERSHAM NSW 2049</td><td>Andrew
+        James Hokin</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl14$ctl01','')\">DA201900200</a></td><td>14/06/2019</td><td>to
+        demolish part of the premises and carry out ground floor alterations and additions
+        to a dwelling house including new attic store, pool and associated landscaping</td><td>Development
+        Applications</td><td>Alterations additions &amp; outbuildings dwells only</td><td>43
+        Elizabeth Avenue DULWICH HILL NSW 2203</td><td>Michael Anthony Lopes, Mauricia
+        Resende Gongalves Lopes</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl15$ctl01','')\">DA201900201</a></td><td>14/06/2019</td><td>Use
+        of a temporary sales office to assist in the sale of dwellings being delivered
+        as part of the Marrick &amp; Co residential development on the site.</td><td>Development
+        Applications</td><td>Mixed Residential Commercial</td><td>178-180 Livingstone
+        Road MARRICKVILLE NSW 2204</td><td> Mirvac Projects Pty Ltd</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl16$ctl01','')\">DA201900202</a></td><td>17/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>81 Sutherland Street ST PETERS
+        NSW 2044</td><td>Sarah Wood</td>\r\n\t\t\t</tr><tr class=\"pagerRow\">\r\n\t\t\t\t<td
+        colspan=\"7\"><table border=\"0\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td><span>1</span></td><td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Page$2')\">2</a></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table></td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \           \r\n            <br />\r\n            \r\n            \r\n            \r\n
+        \       \r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    \r\n    <div class=\"actionButtonsLeft\">\r\n
+        \       <input type=\"submit\" name=\"ctl00$Content$btnPrevious\" value=\"Previous\"
+        id=\"ctl00_Content_btnPrevious\" accesskey=\"P\" title=\"Access Key: P\" class=\"LeftArrowButton\"
+        />\r\n    </div>\r\n\r\n\r\n                    <div class=\"clear\"></div>\r\n
+        \                   <br />\r\n                    <br />\r\n                    <br
+        />\r\n                </div>\r\n                </div>\r\n            </div>\r\n
+        \           <p></p>\r\n            <p class=\"invisible\"></p>\r\n            <div
+        id=\"cssBottomBar\" class=\"cssNoPrint\">\r\n                <div id=\"cssBottomBarLegal\">
+        \                \r\n                    <a id=\"ctl00_hplCustomFooterLink1\"
+        accesskey=\"V\" title=\"Access Key: V\" href=\"http://www.marrickville.nsw.gov.au/more/privacy-statement/\"
+        target=\"_self\">Privacy</a>\r\n                    <img id=\"ctl00_imgFooterSeparator1\"
+        class=\"verticalBar\" src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink2\" accesskey=\"T\" title=\"Access Key: T\"
+        href=\"http://www.marrickville.nsw.gov.au/more/disclaimer/\" target=\"_self\">Disclaimer</a>\r\n
+        \                   <img id=\"ctl00_imgFooterSeparator2\" class=\"verticalBar\"
+        src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\" alt=\"\"
+        style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink3\" accesskey=\"U\" title=\"Access Key: U\"
+        href=\"http://www.marrickville.nsw.gov.au/council/about-council/contact/\"
+        target=\"_self\">Contact Us</a>                       \r\n                    <span
+        id=\"ctl00_MobileLink\">\r\n                        <img id=\"ctl00_Image1\"
+        class=\"verticalBar\" src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                        <a
+        id=\"ctl00_hplMobileView\" href=\"javascript:__doPostBack('ctl00$hplMobileView','')\">Mobile
+        View</a>                       \r\n                    </span>\r\n                </div>\r\n
+        \               <div id=\"cssBottomBarCopyright\">&copy; Technology One Limited
+        2019</div>\r\n            </div>\r\n            \r\n        </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://eproperty.marrickville.nsw.gov.au/eServices/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=L14&f=$P1.ETR.SEARCH.SL14&r=MC.P1.WEBGUEST
+    body:
+      encoding: UTF-8
+      string: __VIEWSTATE=%2FwEPDwUKMTE5MDgzMDk0Nw9kFgJmD2QWAgIDD2QWBAIED2QWBAIBD2QWAmYPZBYEAgEPZBYCZg9kFgJmDw8WEB4EVGV4dAUJRWRpdCBNb2RlHgtDb21tYW5kTmFtZQUEVGFzax4PQ29tbWFuZEFyZ3VtZW50BRpQMUVQUkN1c3RvbWlzYXRpb25FZGl0TW9kZR4JQWNjZXNzS2V5ZR4QQ2F1c2VzVmFsaWRhdGlvbmgeCFRhYkluZGV4AQAAHgdUb29sVGlwZR4PVmFsaWRhdGlvbkdyb3VwZWRkAgIPZBYCZg9kFgJmDw8WEB8ABQ1SZWZyZXNoIENhY2hlHwEFBFRhc2sfAgUeUDFFUFJDdXN0b21pc2F0aW9uUmVmcmVzaENhY2hlHwNlHwRoHwUBAAAfBmUfB2VkZAIDDw8WAh4HVmlzaWJsZWhkFgICAg8PZA8PFCsAARYGHgROYW1lBQpsc0Z1bmN0aW9uHgxEZWZhdWx0VmFsdWUFEyRQMS5FVFIuU0VBUkNILlNMMTQeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkAgcPZBYGAgEPDxYCHwBlZGQCAw9kFgQCAg8PFgIfAAUMU2VhcmNoIERhdGVzZGQCAw8PFgIfAAUYMTIvMDYvMjAxOSB0byAyNS8wNi8yMDE5ZGQCBQ8PFgQeCEdyaWRUeXBlBQxFVFJBQ0tTRUFSQ0geEEdyaWRDcml0ZXJpYUxpc3Qy7QQAAQAAAP%2F%2F%2F%2F8BAAAAAAAAAAwCAAAAUFQxLlAxLldlYi5PYmplY3RBZGFwdGVycywgVmVyc2lvbj0xMC40LjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBAEAAACcAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYSwgVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLCBWZXJzaW9uPTEwLjQuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGxdXQMAAAAGX2l0ZW1zBV9zaXplCF92ZXJzaW9uBAAAJ1QxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWFbXQIAAAAICAkDAAAAAQAAAAEAAAAHAwAAAAABAAAABAAAAAQlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQIAAAAJBAAAAA0DBQQAAAAlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQUAAAAHbXNWYWx1ZQhtc1ZhbHVlMg5tc09wZXJhdG9yQ29kZQptc0NvbHVtbklkDm1zUHJvcGVydHlOYW1lAQEBAQECAAAABgUAAAAWMTIvMDYvMjAxOSAxMjowMDowMCBBTQYGAAAAFjI1LzA2LzIwMTkgMTE6NTk6NTkgUE0GBwAAAAJEQgYIAAAADUxvZGdlbWVudERhdGUJCAAAAAtkFgJmD2QWBAIBD2QWBAIBDw8WAh8ABS1DbGljayBoZXJlIHRvIG9wZW4gQ2kgYW5kIGN1c3RvbWlzZSB0aGlzIGdyaWRkZAIDDw8WAh8ABQlHcmlkIFR5cGVkZAIDDw8WAh8IaGQWAgIBDw8WAh8ABRxObyBpbmZvcm1hdGlvbiBpcyBhdmFpbGFibGUuZGQYAwVDY3RsMDAkQ29udGVudCRjdXNSZXN1bHRzR3JpZCRyZXBXZWJHcmlkJGN0bDAwJGdyZFdlYkdyaWRUYWJ1bGFyVmlldw88KwAKAQgCAmQFQGN0bDAwJENvbnRlbnQkY3VzUmVzdWx0c0dyaWQkcmVwV2ViR3JpZCRjdGwwMCRkdHZXZWJHcmlkTGlzdFZpZXcPFCsAB2RkZGRkFgACHmQFHGN0bDAwJENvbnRlbnQkbGJsU2VhcmNoRGF0ZXMPaGTdF6MNFFsKEy%2BGYfpV%2F1HmFFOEnw%3D%3D&__EVENTVALIDATION=%2FwEWGwKQo7uDCgK359HKDwL38%2BS0BQLD0Z%2F%2FCAKDjpzeCAKCqYWLDgK%2B1pGjDgLurtn5CALsuJ7pAgL%2FiqOnDwKei6OnDwK1jaOnDwLci6OnDwL7i6OnDwKajKOnDwKhiqOnDwLIiKOnDwK5jLfiDgLgirfiDgL%2FirfiDgKei7fiDgK1jbfiDgLci7fiDgL7i7fiDgKa4Pf0BAK%2Fg8WMCQKjmJfRCp0F8GRx51Vxpk8uxkM7XPuBVFhp&__EVENTTARGET=ctl00%24Content%24cusResultsGrid%24repWebGrid%24ctl00%24grdWebGridTabularView&__EVENTARGUMENT=Page%242
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=svxbcn5504bfnuq3zmh3al23
+      Host:
+      - eproperty.marrickville.nsw.gov.au
+      Referer:
+      - https://eproperty.marrickville.nsw.gov.au/eServices/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=L14&r=MC.P1.WEBGUEST&f=%24P1.ETR.SEARCH.SL14
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '2482'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 24 Jun 2019 23:39:47 GMT
+      Content-Length:
+      - '22306'
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\tMarrickville
+        Council - Submitted Last 14 Days\r\n</title><link href=\"../../App_Themes/Marrickville/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Marrickville/fonts.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Marrickville/jquery.collapse.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n<script type=\"text/javascript\"
+        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js\"></script> \r\n
+        \   <form name=\"aspnetForm\" method=\"post\" action=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL14\"
+        id=\"aspnetForm\">\r\n<div>\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwUKMTE5MDgzMDk0Nw9kFgJmD2QWAgIDD2QWBAIED2QWAgIDDw8WAh4HVmlzaWJsZWhkFgICAg8PZA8PFCsAARYGHgROYW1lBQpsc0Z1bmN0aW9uHgxEZWZhdWx0VmFsdWUFEyRQMS5FVFIuU0VBUkNILlNMMTQeDlBhcmFtZXRlclZhbHVlZBQrAQECA2RkAgcPZBYGAgEPDxYCHgRUZXh0ZWRkAgMPDxYCHghFZGl0TW9kZWhkFgQCAg8PFgIfBAUMU2VhcmNoIERhdGVzZGQCAw8PFgIfBAUYMTIvMDYvMjAxOSB0byAyNS8wNi8yMDE5ZGQCBQ8PFgYeCEdyaWRUeXBlBQxFVFJBQ0tTRUFSQ0geEEdyaWRDcml0ZXJpYUxpc3Qy7QQAAQAAAP////8BAAAAAAAAAAwCAAAAUFQxLlAxLldlYi5PYmplY3RBZGFwdGVycywgVmVyc2lvbj0xMC40LjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBAEAAACcAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYSwgVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLCBWZXJzaW9uPTEwLjQuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGxdXQMAAAAGX2l0ZW1zBV9zaXplCF92ZXJzaW9uBAAAJ1QxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWFbXQIAAAAICAkDAAAAAQAAAAEAAAAHAwAAAAABAAAABAAAAAQlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQIAAAAJBAAAAA0DBQQAAAAlVDEuUDEuV2ViLk9iamVjdEFkYXB0ZXJzLkdyaWRDcml0ZXJpYQUAAAAHbXNWYWx1ZQhtc1ZhbHVlMg5tc09wZXJhdG9yQ29kZQptc0NvbHVtbklkDm1zUHJvcGVydHlOYW1lAQEBAQECAAAABgUAAAAWMTIvMDYvMjAxOSAxMjowMDowMCBBTQYGAAAAFjI1LzA2LzIwMTkgMTE6NTk6NTkgUE0GBwAAAAJEQgYIAAAADUxvZGdlbWVudERhdGUJCAAAAAseCVBhZ2VJbmRleAIBZBYCZg9kFgQCAQ9kFgQCAQ8PFgIfBAUtQ2xpY2sgaGVyZSB0byBvcGVuIENpIGFuZCBjdXN0b21pc2UgdGhpcyBncmlkZGQCAw8PFgIfBAUJR3JpZCBUeXBlZGQCAw8PFgIfAGhkFgICAQ8PFgIfBAUcTm8gaW5mb3JtYXRpb24gaXMgYXZhaWxhYmxlLmRkGAMFQ2N0bDAwJENvbnRlbnQkY3VzUmVzdWx0c0dyaWQkcmVwV2ViR3JpZCRjdGwwMCRncmRXZWJHcmlkVGFidWxhclZpZXcPPCsACgICAgEIAgJkBUBjdGwwMCRDb250ZW50JGN1c1Jlc3VsdHNHcmlkJHJlcFdlYkdyaWQkY3RsMDAkZHR2V2ViR3JpZExpc3RWaWV3DxQrAAdkZGRkZBYAAh5kBRxjdGwwMCRDb250ZW50JGxibFNlYXJjaERhdGVzD2hko2BFzBAfd4ftT/EXmzlHat2LHC0=\"
+        />\r\n</div>\r\n\r\n<div>\r\n\r\n\t<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWGwLuwM7EBgK359HKDwL38+S0BQLD0Z//CAKDjpzeCAKCqYWLDgK+1pGjDgLurtn5CALsuJ7pAgL/iqOnDwKei6OnDwK1jaOnDwLci6OnDwL7i6OnDwKajKOnDwKhiqOnDwLIiKOnDwK5jLfiDgLgirfiDgL/irfiDgKei7fiDgK1jbfiDgLci7fiDgL7i7fiDgKa4IP0BAK/g8WMCQKjmJfRCgobwMTlc0Ny7KhkecGn9ImPyPck\"
+        />\r\n</div>\r\n        <div id=\"cssBounds\">\r\n            <div id=\"cssBanner\"
+        >\r\n                    <!-- Login -->\r\n                    <div class=\"speciallink\">\r\n
+        \                       \r\n                            <span class=\"Login\">\r\n
+        \                               <a id=\"ctl00_ctlLogin_cmdLogin\" accesskey=\"L\"
+        title=\"Access Key: L\" href=\"javascript:__doPostBack('ctl00$ctlLogin$cmdLogin','')\">Login</a>
+        \                               \r\n                             </span>\r\n
+        \                           \r\n                     </div>\r\n                    <!--
+        End Login -->            \r\n                <div id=\"cssBannerLogo\">\r\n
+        \                   <a href=\"https://eproperty.marrickville.nsw.gov.au/eServices/P1/GuestHome.aspx?r=MC.P1.WEBGUEST&f=%24P1.EPR.GUESTHME.VIW\"
+        id=\"ctl00_cmdHomeNav\">\r\n                        <img src=\"../../App_Themes/Default/Images/Empty.gif\"
+        id=\"ctl00_imageHomeNav\" border=\"0\" class=\"homeNav\" />\r\n                    </a>\r\n
+        \               </div>\r\n                <ul class=\"topmenu\">\r\n                    <li><a
+        title=\"Back to eProperty home\" href=\"https://eproperty.marrickville.nsw.gov.au/eServices/P1/GuestHome.aspx?r=MC.P1.WEBGUEST&f=$P1.EPR.GUESTHME.VIW\">Back
+        to eProperty home</a></li>\r\n                </ul>\r\n            </div>\r\n
+        \           <div class=\"bannerimage\"><img src=\"/eServices/App_Themes/Marrickville/Images/develop-content-banner.jpg\"
+        alt=\"Inner West Council\"></div>\r\n            <div class=\"clear\"></div>\r\n
+        \           <div id=\"cssContentArea\">\r\n                <div id=\"cssTaskpane\"
+        \ class = \"cssNoPrint\">\r\n                    \r\n                    <div>\r\n
+        \                       \r\n                                <div class=\"menuPanel\">\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl01_lblMenuGroupHeader\">Online
+        Applications</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/SubmitApplication.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.ESB.SUBMTAPP.VIW\">Submit
+        an Application</a></li>\r\n</ul>\r\n                                <br />\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl02_lblMenuGroupHeader\">Parking
+        Permits</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/ParkingPermitApplication.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.EPP.PERMIT.MNT\">Apply
+        for a Parking Permit</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl03_lblMenuGroupHeader\">Rates</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ePay/RatesPayment.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.EPY.RATES.ENQ\">Rates
+        Payment</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               <div class=\"menuHeader\">\r\n                                    <span
+        id=\"ctl00_Taskpane_rprMenuList_ctl04_lblMenuGroupHeader\">Development</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"eTrackApplicationSearch.aspx?r=MC.P1.WEBGUEST&amp;f=MC.P1.ETR.SEARCH.ENQ\">Search
+        for a DA</a></li><li><a href=\"../PublicNotices/AllPublicNotices.aspx?r=MC.P1.WEBGUEST&amp;f=MC.ESB.PUBNOTAL.ENQ\">View
+        DAs on Exhibition</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl05_lblMenuGroupHeader\">Shopping
+        Cart</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ShoppingCart/ShoppingCart.aspx?r=MC.P1.WEBGUEST&amp;f=%24P1.PAY.CART.VIW\">Shopping
+        Cart</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               </div>\r\n                            \r\n
+        \                       \r\n                    </div>\r\n                            \r\n
+        \               </div>\r\n                \r\n                <div id=\"cssTaskpaneRelatedLinks\"
+        \ class= \"cssNoPrint\">\r\n                    \r\n                        <div
+        id=\"ctl00_RightTaskPane_tspRelatedLinks\" class=\"taskPanel\">\r\n<div class=\"taskHeader\">Related
+        Links</div>\r\n<ul>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STW\">Submitted
+        This Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SLW\">Submitted
+        Last Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STM\">Submitted
+        This Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SLM\">Submitted
+        Last Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L7&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL7\">Submitted
+        Last 7 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL14\">Submitted
+        Last 14 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=L28&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.SL28\">Submitted
+        Last 28 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DTW\">Determined
+        This Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LW&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DLW\">Determined
+        Last Week</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DTM\">Determined
+        This Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LM&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DLM\">Determined
+        Last Month</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L7&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL7\">Determined
+        Last 7 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L14&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL14\">Determined
+        Last 14 Days</a></li>\r\n<li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=L28&amp;r=MC.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.DL28\">Determined
+        Last 28 Days</a></li>\r\n</ul>\r\n<div class=\"taskFooter\">&nbsp;</div>\r\n</div>\r\n\r\n
+        \                       \r\n                    \r\n                    \r\n
+        \                   <div id=\"cssHelpAndAdmin\">\r\n                        \r\n
+        \   \r\n    \r\n\r\n                    </div>\r\n                </div>\r\n
+        \                               \r\n                <div id=\"cssContent\">\r\n
+        \               <div class=\"cssContentWorkspace\">\r\n                    <a
+        id=\"cssContentTop\"></a>\r\n                    \r\n                        <h1
+        id=\"ctl00_Header_h1PageTitle\">Submitted Last 14 Days</h1>\r\n                    \r\n
+        \                   \r\n                    \r\n                              \r\n
+        \                   \r\n    \r\n    <span id=\"ctl00_Content_cusETrackApplicationSearchResults\"
+        style=\"display:inline-block;width:100%;\"></span>\r\n    <br />\r\n    \r\n
+        \   <span id=\"ctl00_Content_lblSearchDates\" class=\"block\"><span id=\"ctl00_Content_lblFieldNameP1ETRSearchDates\"
+        class=\"fieldLabel\">Search Dates</span><span id=\"ctl00_Content_lblFieldValueP1ETRSearchDates\"
+        class=\"fieldLabel\">12/06/2019 to 25/06/2019</span></span>\r\n    \r\n    <div
+        id=\"ctl00_Content_cusResultsGrid_pnlCustomisationGrid\">\r\n\t\r\n    \r\n
+        \   \r\n    \r\n            <div id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_pnlSectionHeading\">\r\n\t\t\r\n
+        \               <span id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_lblSectionHeading\"
+        class=\"sectionHeading\">Application Search Results</span>\r\n                                <br
+        />\r\n                <img id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_imgSectionSeparator\"
+        class=\"sectionSeparator\" src=\"../../App_Themes/Marrickville/Images/Empty.gif\"
+        alt=\"\" style=\"border-width:0px;height:0px;width:50%;\" />\r\n            \r\n\t</div>\r\n
+        \r\n            \r\n\r\n            <div>\r\n\t\t<table class=\"grid\" cellspacing=\"0\"
+        cellpadding=\"3\" border=\"0\" id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_grdWebGridTabularView\"
+        style=\"width:100%;border-collapse:collapse;\">\r\n\t\t\t<tr class=\"headerRow\">\r\n\t\t\t\t<th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$RamId')\">Application
+        Link</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$LodgementDate')\">Lodgement
+        Date</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$Description')\">Description</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryGroupDescription')\">Group
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryCategoryDescription')\">Category
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$FormattedAddress')\">Formatted
+        Address</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$ApplicantNames')\">Applicant
+        Names</a></th>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl02$ctl01','')\">DA201900205</a></td><td>18/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>14 Brooklyn Street TEMPE
+        NSW 2044</td><td>Rachel Suharsini Rothwell</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl03$ctl01','')\">DA201900206</a></td><td>18/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>3 Warburton Street MARRICKVILLE
+        NSW 2204</td><td> Design Studio 407</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl04$ctl01','')\">DA201900207</a></td><td>18/06/2019</td><td>Alterations
+        and additions to an existing attached dwelling including a new first floor
+        addition.</td><td>Development Applications</td><td>Alterations additions &amp;
+        outbuildings dwells only</td><td>51 Albermarle Street NEWTOWN NSW 2042</td><td>Stephen
+        Craig Rudd, Michelle Leanne Graham</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl05$ctl01','')\">DA201900208</a></td><td>18/06/2019</td><td>Alterations
+        and additions to existing dwelling, external deck and tree removal</td><td>Development
+        Applications</td><td>Alterations additions &amp; outbuildings dwells only</td><td>16
+        Lewisham Street DULWICH HILL NSW 2203</td><td>Jenny Matek</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl06$ctl01','')\">DA201900209</a></td><td>19/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>34 Margaret Street NEWTOWN
+        NSW 2042</td><td> Design Vines Architects</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl07$ctl01','')\">DA201900211</a></td><td>20/06/2019</td><td>Alterations
+        and additions to an existing semi-detached dwelling.</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>38 West Street PETERSHAM
+        NSW 2049</td><td>Nelson Enrique Araya</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl08$ctl01','')\">DA201900212</a></td><td>20/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>51 Percival Road STANMORE
+        NSW 2048</td><td>Simon Hannaford Ward</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl09$ctl01','')\">DA201900213</a></td><td>20/06/2019</td><td>Partial
+        demolition and new building works</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>49 Roberts Street CAMPERDOWN
+        NSW 2050</td><td>Jamie Andre Calvin Allen</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl10$ctl01','')\">DA201900214</a></td><td>21/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>63 Corunna Road STANMORE
+        NSW 2048</td><td> Robert Parisi Architecture + Design</td>\r\n\t\t\t</tr><tr
+        class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl11$ctl01','')\">DA201900215</a></td><td>24/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>75 Northumberland Avenue
+        STANMORE NSW 2048</td><td>Stephanie Wong</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl12$ctl01','')\">DA201900216</a></td><td>24/06/2019</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>Development Applications</td><td>Alterations
+        additions &amp; outbuildings dwells only</td><td>55 Frazer Street DULWICH
+        HILL NSW 2203</td><td>Samantha Ford</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl13$ctl01','')\">DA201900217</a></td><td>24/06/2019</td><td>Mixed
+        Residential Commercial</td><td>Development Applications</td><td>Mixed Residential
+        Commercial</td><td>829A New Canterbury Road DULWICH HILL NSW 2203</td><td>
+        Nordon Jago Architects</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl14$ctl01','')\">DA201600330.03</a></td><td>21/06/2019</td><td>to
+        demolish a shed and carport to the rear of the site, repair and restore an
+        existing heritage dwelling and construct 2 x 2 storey dwellings to the rear
+        of the site with associated open hard stand car parking and landscape works
+        and a 3 lot strata subdivision</td><td>Development Applications</td><td>Sec
+        96(2) - Other</td><td>122 Victoria Street DULWICH HILL NSW 2203</td><td>Kristen
+        Mann</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl15$ctl01','')\">DA201800466.01</a></td><td>14/06/2019</td><td>under
+        Section 8.2 of the Environmental Planning and Assessment Act to review Determination
+        No. 201800466 dated 13 March 2019 to demolish part of the premises and carry
+        out ground and first floor alterations and additions to a dwelling house</td><td>Development
+        Applications</td><td>Sec 82A - Other</td><td>74 Darley Street NEWTOWN NSW
+        2042</td><td>James Pedersen</td>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl16$ctl01','')\">DA201900204</a></td><td>18/06/2019</td><td>Multiple
+        Single Dwellings</td><td>Development Applications</td><td>Multiple Single
+        Dwellings</td><td>27 Premier Street MARRICKVILLE NSW 2204</td><td>Robert Thomas
+        Virgona</td>\r\n\t\t\t</tr><tr class=\"pagerRow\">\r\n\t\t\t\t<td colspan=\"7\"><table
+        border=\"0\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Page$1')\">1</a></td><td><span>2</span></td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table></td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \           \r\n            <br />\r\n            \r\n            \r\n            \r\n
+        \       \r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    \r\n    <div class=\"actionButtonsLeft\">\r\n
+        \       <input type=\"submit\" name=\"ctl00$Content$btnPrevious\" value=\"Previous\"
+        id=\"ctl00_Content_btnPrevious\" accesskey=\"P\" title=\"Access Key: P\" class=\"LeftArrowButton\"
+        />\r\n    </div>\r\n\r\n\r\n                    <div class=\"clear\"></div>\r\n
+        \                   <br />\r\n                    <br />\r\n                    <br
+        />\r\n                </div>\r\n                </div>\r\n            </div>\r\n
+        \           <p></p>\r\n            <p class=\"invisible\"></p>\r\n            <div
+        id=\"cssBottomBar\" class=\"cssNoPrint\">\r\n                <div id=\"cssBottomBarLegal\">
+        \                \r\n                    <a id=\"ctl00_hplCustomFooterLink1\"
+        accesskey=\"V\" title=\"Access Key: V\" href=\"http://www.marrickville.nsw.gov.au/more/privacy-statement/\"
+        target=\"_self\">Privacy</a>\r\n                    <img id=\"ctl00_imgFooterSeparator1\"
+        class=\"verticalBar\" src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink2\" accesskey=\"T\" title=\"Access Key: T\"
+        href=\"http://www.marrickville.nsw.gov.au/more/disclaimer/\" target=\"_self\">Disclaimer</a>\r\n
+        \                   <img id=\"ctl00_imgFooterSeparator2\" class=\"verticalBar\"
+        src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\" alt=\"\"
+        style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink3\" accesskey=\"U\" title=\"Access Key: U\"
+        href=\"http://www.marrickville.nsw.gov.au/council/about-council/contact/\"
+        target=\"_self\">Contact Us</a>                       \r\n                    <span
+        id=\"ctl00_MobileLink\">\r\n                        <img id=\"ctl00_Image1\"
+        class=\"verticalBar\" src=\"../../App_Themes/Marrickville/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                        <a
+        id=\"ctl00_hplMobileView\" href=\"javascript:__doPostBack('ctl00$hplMobileView','')\">Mobile
+        View</a>                       \r\n                    </span>\r\n                </div>\r\n
+        \               <div id=\"cssBottomBarCopyright\">&copy; Technology One Limited
+        2019</div>\r\n            </div>\r\n            \r\n        </div>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
